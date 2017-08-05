@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "mono-repo",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "mehdivk <hi@mv.id.au>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^2.0.0"
+  }
+}
