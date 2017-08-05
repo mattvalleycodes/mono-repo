@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "mono-repo-hello-world",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT"

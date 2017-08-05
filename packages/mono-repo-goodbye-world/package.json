@@ -1,0 +1,10 @@
+{
+  "private": false,
+  "name": "mono-repo-goodbye-world",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mono-repo-hello-world": "0.0.1"
+  }
+}

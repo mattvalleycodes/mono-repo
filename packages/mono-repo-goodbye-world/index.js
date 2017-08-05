@@ -1,4 +1,4 @@
-var helloWorld = require('hello-world');
+var helloWorld = require('mono-repo-hello-world');
 
 function goodbyeWorld() {
   helloWorld();

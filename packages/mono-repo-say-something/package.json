@@ -1,5 +1,5 @@
 {
-  "name": "say-something",
+  "name": "mono-repo-say-something",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
@@ -7,6 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "goodbye-world": "1.0.0"
+    "mono-repo-goodbye-world": "0.0.1"
   }
 }
