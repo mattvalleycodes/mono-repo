@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "mehdivk <hi@mv.id.au>",
   "license": "MIT",
+  "scripts": {
+    "link-all": "lerna exec -- yarn link",
+    "unlink-all": "lerna exec -- yarn unlink"
+  },
   "workspaces": [
     "packages/*"
   ],
