@@ -7,13 +7,21 @@
   "license": "MIT",
   "scripts": {
     "link-all": "lerna exec -- yarn link",
-    "unlink-all": "lerna exec -- yarn unlink"
+    "unlink-all": "lerna exec -- yarn unlink",
+    "commit": "git-cz"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "lerna": "^2.0.0"
   },
-  "repository": "git@github.com:mehdivk/mono-repo.git"
+  "repository": "git@github.com:mehdivk/mono-repo.git",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
