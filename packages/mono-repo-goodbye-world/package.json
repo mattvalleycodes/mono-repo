@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "mono-repo-goodbye-world",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
